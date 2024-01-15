@@ -34,7 +34,7 @@
                               <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">View previous uploads</span></a>
                       </li>
                       <li>
-                          <a href="/listUsersWithoutEmail.html"class="nav-link px-0 align-middle">
+                          <a href="/listUsersWithoutEmail.html" class="nav-link px-0 align-middle">
                               <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">List users without Email</span> </a>
                       </li>
                   </ul>
@@ -55,7 +55,37 @@
               </div>
           </div>
           <div class="col py-3">
-              Welcome to the B2C Editor
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Search by email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Example: david.brick@gmail.com</div>
+                </div>
+                <a href="/edit.html"><input type=button value='Search'></a>
+            </form>    
+
+            <hr>
+
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Search by name</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Example: John</div>
+                </div>
+                <a href="/edit.html"><input type=button value='Search'></a>
+            </form>
+
+            <hr>
+            
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Search by B2C Id</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Example: f88cf506-8888-4d0a-0054-b0441ca0bbbb</div>
+                </div>
+                <a href="/edit.html"><input type=button value='Search'></a>
+            </form>            
+
           </div>
       </div>
   </div>
